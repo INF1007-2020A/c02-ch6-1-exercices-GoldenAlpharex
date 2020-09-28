@@ -8,10 +8,10 @@ import itertools
 
 
 def get_maximums(numbers):
-	return [0]
+	return [max(elem) for elem in numbers]
 
 def join_integers(numbers):
-	return 0
+	return int("".join([str(elem) for elem in numbers]))  # Big brain, à la place de créer une variable string, fait juste mettre "".whateverLaFonctionQueTuVeuxFaire
 
 def generate_prime_numbers(limit):
 	return [0]
